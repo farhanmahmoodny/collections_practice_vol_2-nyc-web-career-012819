@@ -77,7 +77,7 @@ end
 
 def organize_schools(schools)
   by_location = {}
-  schools[:location].each do |school_location|
+  schools.each do |school_location|
     
   end
 # by_location
