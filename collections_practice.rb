@@ -79,9 +79,9 @@ def organize_schools(schools)
   by_location = {}
   schools.values.each do |location|
     by_location[location.values[0]] = []
-  # schools.each do |school, location|
-  #   location[location.values[0]] = school
-#   end
+  schools.each do |school, location|
+    location[location.values[0].push(school)]
+  end
 end
   
 by_location
