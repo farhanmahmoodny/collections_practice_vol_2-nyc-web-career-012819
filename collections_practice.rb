@@ -78,6 +78,8 @@ end
 def organize_schools(schools)
   by_location = {}
   schools.each do |location|
+    location.values.each do |places|
+      
     
   end
 # by_location
