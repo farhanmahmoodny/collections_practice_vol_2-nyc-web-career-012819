@@ -80,7 +80,7 @@ def organize_schools(schools)
   schools.each do |school, location|
     location.each do |key, value|
       by_location << #{value}
-    end
+    
   end
 by_location
 end
