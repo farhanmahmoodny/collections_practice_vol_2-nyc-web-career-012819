@@ -64,7 +64,13 @@ new_array = []
 end
 
 def find_cool(cool)
-  cool
+  cool.each do  |element|
+    element.each do |key, value|
+      if key == :temperature and value == "cool"
+        return element
+      end
+    end
+  end
 end
 
 def organize_schools(schools)
