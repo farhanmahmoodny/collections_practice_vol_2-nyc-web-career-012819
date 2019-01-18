@@ -76,7 +76,12 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
-  schools
+  by_location = {}
+  schools.each do |school, location|
+    location.each do |key, value|
+      by_location << value
+    end
+  end
 
 end
 
