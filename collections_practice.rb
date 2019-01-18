@@ -79,8 +79,7 @@ def organize_schools(schools)
   by_location = {}
   schools.values.each do |location|
     by_location[location.values[0]] = []
-  schools.each do |school, location|
-    by_location[location.values[0]] << school
+  schools.each { |school, location| by_location[location.values[0]] << school }
   end
 end
   
