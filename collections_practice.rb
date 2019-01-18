@@ -75,7 +75,7 @@ def find_cool(cool)
   cool_array
 end
 
-def organize_schools(schools)
+def organize_schools(hash
   # by_location = {}
   # schools.values.each do |location|
   #   by_location[location.values[0]] = []
