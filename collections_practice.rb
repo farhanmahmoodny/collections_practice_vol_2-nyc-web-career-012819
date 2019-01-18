@@ -82,6 +82,6 @@ def organize_schools(schools)
       by_location[value] = location if key == school
     end
   end
-by_location
+# by_location
 end
 
