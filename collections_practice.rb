@@ -64,8 +64,6 @@ new_array = []
 end
 
 def organize_schools(schools)
-  new_array = []
-  schools.each do |name, loaction|
-    new
+
 end
 
