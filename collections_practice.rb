@@ -82,7 +82,7 @@ def organize_schools(schools)
   end
   schools.each do |school, location|
     if by_location[location.values[0]] == location
-      by_loacation[location.values[0]] << school
+      by_loacation[location.values[0]].push(school)
     # by_location[location.values[0]] = school
   end
 end
