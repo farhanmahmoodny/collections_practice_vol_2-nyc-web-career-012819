@@ -84,7 +84,7 @@ def organize_schools(schools)
   end
 end
   
-by_locations
+by_location
 end
 
 # by_location
