@@ -80,13 +80,13 @@ def organize_schools(schools)
   schools.values.each do |location|
     by_location[location.values[0]] = []
   end
-  schools.each do |school, location|
+  schools.each do |school|
     if by_location[location.value[0]]
     # by_location[location.values[0]] = school
   end
 end
   
-by_location
+schools
 end
 
 # by_location
