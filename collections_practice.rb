@@ -78,10 +78,13 @@ end
 def organize_schools(schools)
   by_location = {}
   schools.values.each do |location|
-    location.values.each do |places|
-      
+    by_location[location.values[0]] = []
+
     
   end
 # by_location
-end
-
+# end
+# locations = {}
+#   hash.values.each { |location| locations[location.values[0]] = [] }
+#   hash.each { |school, location| locations[location.values[0]] << school }
+#   locations
