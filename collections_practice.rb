@@ -76,14 +76,18 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
-  by_location = {}
-  schools.values.each do |location|
-    by_location[location.values[0]] = []
-  schools.each do |school, location|
-    location[location.values[0]] << school
+  # by_location = {}
+  # schools.values.each do |location|
+  #   by_location[location.values[0]] = []
+  # schools.each do |school, location|
+  #   location[location.values[0]] << school
+  locations = {}
+  hash.values.each { |location| locations[location.values[0]] = [] }
+  hash.each { |school, location| locations[location.values[0]] << school }
+  locations
   end
   end
-by_location
+# by_location
 end
 # locations = {}
 #   hash.values.each { |location| locations[location.values[0]] = [] }
