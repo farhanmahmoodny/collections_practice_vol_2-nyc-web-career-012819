@@ -64,13 +64,15 @@ new_array = []
 end
 
 def find_cool(cool)
+  cool_array = []
   cool.each do  |element|
     element.each do |key, value|
       if key == :temperature and value == "cool"
-        return element
+        cool_array << element
       end
     end
   end
+  cool_array
 end
 
 def organize_schools(schools)
