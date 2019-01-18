@@ -82,6 +82,6 @@ def organize_schools(schools)
       by_location << value
     end
   end
-
+by_location
 end
 
